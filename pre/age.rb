@@ -1,0 +1,16 @@
+
+def age_cal()
+  
+  current_age = gets.chomp.to_i
+  
+  puts "In 10 years you will be: \n" + (current_age+10).to_s
+
+  puts "In 20 years you will be: \n" + (current_age+20).to_s
+
+  puts "In 30 years you will be: \n" + (current_age+30).to_s
+
+  puts "In 40 years you will be: \n" + (current_age+40).to_s
+end
+
+puts "How old are you?"
+age_cal
